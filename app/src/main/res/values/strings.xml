@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="signup">SIGN UP</string>
+    <string name="signin">SIGN IN</string>
+    <string name="trailer">Lorem ipsum doior sit amet</string>
+    <string name="noacc">DON\'T HAVE ACCOUNT?</string>
+    <string name="pass">Password</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="readyacc">ALREADY HAVE AN ACCOUNT?</string>
+
+    <string name="eng">English</string>
+    <string name="kr">Korea</string>
+    <string name="hi">Hindi</string>
+
+</resources>

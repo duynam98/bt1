@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मेरा आवेदन</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="signin">साइन इन करें</string>
+    <string name="trailer">Lorem ipsum doior sit amet</string>
+    <string name="noacc">यह स्वीकार नहीं किया है?</string>
+    <string name="pass">कुंजिका</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="readyacc">पहले से ही एक खाता है?</string>
+
+    <string name="eng">अंग्रेज़ी</string>
+    <string name="kr">कोरिया</string>
+    <string name="hi">हिंदी</string>
+</resources>

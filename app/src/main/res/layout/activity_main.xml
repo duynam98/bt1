@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signin"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin2"
+        app:layout_constraintBottom_toTopOf="@id/edt_username"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trailer"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/tv_signin"
+        app:layout_constraintStart_toStartOf="@id/tv_signin"
+        app:layout_constraintTop_toBottomOf="@id/tv_signin" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_min"
+        android:layout_marginBottom="@dimen/margin3"
+        android:text="@string/noacc"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_signup" />
+
+    <TextView
+        android:id="@+id/tv_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin3"
+        android:text="@string/signup"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_signin" />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin1"
+        android:layout_marginEnd="@dimen/margin1"
+        android:layout_marginBottom="@dimen/margin1"
+        android:background="@drawable/custorm_edt_btn"
+        android:text="@string/signin"
+        android:textColor="@color/startColor"
+        app:layout_constraintBottom_toTopOf="@id/tv_signup" />
+
+    <EditText
+        android:id="@+id/edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin1"
+        android:layout_marginEnd="@dimen/margin1"
+        android:layout_marginBottom="@dimen/margin2"
+        android:background="@drawable/custorm_bottom_edt"
+        android:hint="@string/pass"
+        android:padding="@dimen/margin1"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@id/btn_signin"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/margin1"
+        android:layout_marginEnd="@dimen/margin1"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/edt_pass"
+        app:layout_constraintTop_toBottomOf="@id/edt_username" />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin1"
+        android:layout_marginEnd="@dimen/margin1"
+        android:background="@drawable/custorm_edt"
+        android:hint="@string/username"
+        android:padding="@dimen/margin1"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@id/edt_pass"
+        android:nextFocusDown="@id/edt_pass"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

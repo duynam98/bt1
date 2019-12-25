@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">내 응용 프로그램</string>
+    <string name="signup">가입하기</string>
+    <string name="signin">로그인</string>
+    <string name="trailer">Lorem ipsum doior sit amet</string>
+    <string name="noacc">계정이 없습니다?</string>
+    <string name="pass">암호</string>
+    <string name="username">사용자 이름</string>
+    <string name="email">이메일</string>
+    <string name="readyacc">이미 계정이 있습니다?</string>
+
+    <string name="eng">영어</string>
+    <string name="kr">대한민국</string>
+    <string name="hi">힌디 어</string>
+</resources>
